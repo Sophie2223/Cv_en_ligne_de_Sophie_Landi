@@ -120,6 +120,19 @@ font-family: Palatino, 'Palatino Linotype' , serif; color : black;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+.card1{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/Design.jpg);
+}
+
+.card2{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/googleanalytics.jpg)
+}
+
+.card3{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+     url(../images/ads.jpg)
+}
+
 .banner3{
   background-image: url(../images/wework.jpg);
   background-size: cover;
