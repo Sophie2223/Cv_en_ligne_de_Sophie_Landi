@@ -40,7 +40,7 @@
 }
 
 .text{
-    font-family: url(../betterlove_2/Betterlove.ttf);
+    font-family: ../betterlove_2/Betterlove.ttf;
 }
 
 .navbar-nav{
