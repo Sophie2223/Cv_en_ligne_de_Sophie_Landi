@@ -40,8 +40,8 @@
 }
 
 .text{
-font-family: Palatino, 'Palatino Linotype' , serif; color : black;
-font-weight: bold;
+font-family: futurabook;
+    font-size: .875rem;
 }
 
 .navbar-nav{
