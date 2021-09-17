@@ -39,8 +39,21 @@
   padding: 10px 50px;
 }
 
+@font-face {
+  font-family: "Betterlove";
+  src: url('Betterlove.tff');
+
+}
+
+@font-face {
+  font-family: "Betterlove";
+  font-style : italic;
+  src: url('Betterlove italic.tff');
+
+}
+
 .text{
-    font-family: ../betterlove_2/Betterlove.ttf;
+    font-family: "Betterlove",;
 }
 
 .navbar-nav{
