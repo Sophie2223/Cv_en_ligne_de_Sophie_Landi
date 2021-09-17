@@ -41,14 +41,14 @@
 
 @font-face {
   font-family: "Betterlove";
-  src: url('Betterlove.tff');
+  src: url('Betterlove-regular.tff');
 
 }
 
 @font-face {
   font-family: "Betterlove";
   font-style : italic;
-  src: url('Betterlove italic.tff');
+  src: url('Betterlove-italic.tff');
 
 }
 
