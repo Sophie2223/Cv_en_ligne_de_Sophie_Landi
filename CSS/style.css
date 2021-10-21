@@ -1,8 +1,23 @@
+@font-face {
+  font-family: 'Betterlove';
+  src: url('Betterlove-regular.tff');
+
+}
+
+@font-face {
+  font-family: "Betterlove";
+  font-style : italic;
+  src: url('Betterlove-italic.tff') format('truetype');
+
+}
+
 .logo {
     max-width:80px;
 }
 
 .navbar-nav{
+  font-family: "Betterlove";
+  font-size: 19px;
   margin-left:500px;
   display: flex;
   flex-direction: column;
@@ -22,7 +37,7 @@
 }
 
 .banner-content {
-  color: black;
+  color: #a17867;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   margin: auto;
   position: absolute;
@@ -31,7 +46,7 @@
   }
 
 .content {
-  background-color: #cab2a3;
+  background-color: #f5eae7;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -39,21 +54,8 @@
   padding: 10px 50px;
 }
 
-@font-face {
-  font-family: "Betterlove";
-  src: url('Betterlove-regular.tff');
-
-}
-
-@font-face {
-  font-family: "Betterlove";
-  font-style : italic;
-  src: url('Betterlove-italic.tff');
-
-}
-
 .text{
-    font-family: "Betterlove",;
+    font-family: "Betterlove";
 }
 
 .navbar-nav{
@@ -61,7 +63,7 @@
 }
 
 .banner2{
-  background-image: url(../images/Ladefense.jpg);
+  background-image: url(../images/university.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100px;
@@ -69,14 +71,17 @@
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
-  padding: 50px 50px;
+  padding: 100px 50px;
 }
 
 .banner-content2 {
-  color: black;
-  align-content: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   margin: auto;
-}
+  position: absolute;
+  top:70px;
+  left:300px;
+  }
 
 .direction {
   text-align: center;
@@ -133,7 +138,7 @@
 }
 
 .banner3{
-  background-image: url(../images/wework.jpg);
+  background-image: url(../images/cosmetic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100px;
@@ -141,7 +146,7 @@
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
-  padding: 50px 50px;
+  padding: 100px 50px;
 }
 
 .banner-content3 {
@@ -178,7 +183,15 @@
 
 
 .Mission {
-  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/wework2.jpg);
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/NYC.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 100px 50px;
+}
+
+.Mission2 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/work.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
@@ -200,7 +213,7 @@
 }
 
 .banner4{
-  background-image: url(../images/passion.jpg);
+  background-image: url(../images/passion1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100px;
@@ -208,7 +221,7 @@
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
-  padding: 50px 50px;
+  padding: 100px 50px;
 }
 
 .banner-content4 {
@@ -223,6 +236,10 @@
   margin: auto;
 }
 
+.colortext {
+  color: black;
+  text-align: center;
+}
 .logo_{
   text-align: center;
 }
@@ -233,7 +250,7 @@
 }
 
 .banner5{
-  background-image: url(../images/contact.jpg);
+  background-color: #f5e9e6;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100px;
@@ -251,7 +268,7 @@
 }
 
 .content2 {
-  background-color: #cab2a3;
+  background-image: url(../images/contact1.jpg);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
