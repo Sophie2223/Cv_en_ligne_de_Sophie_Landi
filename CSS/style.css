@@ -12,7 +12,7 @@
 }
 
 .logo {
-    max-width:80px;
+    max-width:60px;
 }
 
 .navbar-nav{
@@ -36,6 +36,14 @@
   padding: 100px 50px;
 }
 
+.video {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin-top: 50px;
+ object-fit: cover;
+}
+
 .banner-content {
   color: #a17867;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -46,7 +54,7 @@
   }
 
 .content {
-  background-color: #f5eae7;
+  background-color: #e0cda9;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -138,7 +146,7 @@
 }
 
 .banner3{
-  background-image: url(../images/cosmetic.jpg);
+  background-image: url(../images/fond3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100px;
@@ -198,6 +206,14 @@
   padding: 100px 50px;
 }
 
+.Mission3 {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/FN.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 100px 50px;
+}
+
 .Design_Mission {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -230,10 +246,15 @@
   margin: auto;
 }
 
-.carrousel_taille{
+.carrousel_taille {
   width: 80%;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   margin: auto;
+}
+
+.imgvp {
+  height: 495px;
+  width: 880px;
 }
 
 .colortext {
@@ -250,7 +271,7 @@
 }
 
 .banner5{
-  background-color: #f5e9e6;
+  background-color: #e0cda9;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100px;
@@ -284,6 +305,10 @@
 
 .banner{
   background-position: -334px;
+}
+
+.video{
+ width: 100%;
 }
 
 .positiontext{
