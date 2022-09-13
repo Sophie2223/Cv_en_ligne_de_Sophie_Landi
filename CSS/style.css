@@ -250,6 +250,11 @@
   margin: auto;
 }
 
+.imgvp {
+  height: 495px;
+  width: 880px;
+}
+
 .colortext {
   color: black;
   text-align: center;
@@ -298,6 +303,10 @@
 
 .banner{
   background-position: -334px;
+}
+
+.video{
+ width: 100%;
 }
 
 .positiontext{
