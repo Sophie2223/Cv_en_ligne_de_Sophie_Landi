@@ -302,8 +302,11 @@
 }
 
 .video{
-  display: flex;
-  justify-content: space-around;
+  position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+Height: 0;
+overflow: hidden
 }
 
 .positiontext{
