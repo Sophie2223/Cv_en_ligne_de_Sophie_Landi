@@ -250,6 +250,11 @@
   margin: auto;
 }
 
+.imgvp {
+  height: 495px;
+  width: 880px;
+}
+
 .colortext {
   color: black;
   text-align: center;
@@ -307,6 +312,7 @@ padding-top: 30px;
 Height: 0;
 overflow: hidden
 }
+
 .positiontext{
   width: 300px;
   text-align: center;
