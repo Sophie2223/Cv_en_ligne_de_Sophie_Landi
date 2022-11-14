@@ -16,7 +16,6 @@
 .navbar-nav{
   font-family: "Betterlove";
   font-size: 19px;
-  margin-left:500px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -208,7 +207,7 @@
   background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/FN.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 500px;
   padding: 100px 50px;
 }
 
@@ -293,6 +292,7 @@
 }
 
 @media screen and (max-width: 400px){
+
 .navbar-nav {
   margin: auto;
 }
@@ -365,16 +365,14 @@ overflow: hidden
   height: 600px;
   width: 355px;
   margin-top: 30px;
-  margin-right: -10px;
-  margin-left: 13px;
+  margin-left: -5px;
 }
 
 .Mission3 {
-  height: 600px;
+  height: 900px;
   width: 355px;
   margin-top: 30px;
-  margin-right: -10px;
-  margin-left: 13px;
+  margin-left: -5px;
 }
 
 .Design_Mission {
