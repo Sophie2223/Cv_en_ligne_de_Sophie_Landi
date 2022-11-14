@@ -364,14 +364,13 @@ overflow: hidden
 .Mission {
   height: 600px;
   width: 355px;
-  margin-top: 30px;
-  margin-left: 5px;
+  margin:auto;
 }
 
 .Mission3 {
   height: 900px;
   width: 355px;
-  margin-top: 30px;
+  margin:auto;
 }
 
 .Design_Mission {
