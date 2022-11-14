@@ -1,0 +1,357 @@
+.logo {
+    max-width:80px;
+}
+
+.navbar-nav{
+  margin-left:500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.banner {
+  background-image: url(../images/Mockupcv.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 100px 50px;
+}
+
+.banner-content {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin: auto;
+  position: absolute;
+  top:200px;
+  left:270px;
+  }
+
+  .mt120 {width: 100%;
+  padding: 100px 50px;}
+
+.content {
+  background-color: #BC8F8F;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.text{
+font-family: Palatino, 'Palatino Linotype' , serif; color : black;
+}
+
+.navbar-nav{
+  text-align:right;
+}
+
+.banner2{
+  background-image: url(../images/Ladefense.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 50px;
+}
+
+.banner-content2 {
+  color: black;
+  align-content: center;
+  margin: auto;
+}
+
+.direction {
+  text-align: center;
+}
+
+.rounded-start{
+  width: 100%;
+  vertical-align: middle;
+  margin-left:15px;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+}
+
+.Pôletext{
+  text-align: left;
+}
+
+.flex-custom0 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.flex-custom0 a {
+  order: 1;
+}
+
+.MN{
+  margin-right:30px;
+  width: 75%;
+}
+
+.cards {
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-element {
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.banner3{
+  background-image: url(../images/wework.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 50px;
+}
+
+.banner-content3 {
+  color: black;
+  align-content: center;
+  margin: auto;
+}
+
+.flex-custom1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.flex-custom1 a {
+  order: 1;
+}
+
+.rounded-circle{
+  width: 100%;
+  vertical-align: middle;
+  margin-left:15px;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+}
+
+.Profiltext{
+ text-align: left; 
+}
+
+.textposition{
+  text-align: center;
+}
+
+
+.Mission {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/wework2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 100px 50px;
+}
+
+.Design_Mission {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin: auto;
+}
+
+.boutonMission{
+  text-align: center;
+}
+
+.position_Text_Mission{
+  margin-top: -50px;
+}
+
+.banner4{
+  background-image: url(../images/passion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 50px;
+}
+
+.banner-content4 {
+  color: black;
+  align-content: center;
+  margin: auto;
+}
+
+.carrousel_taille{
+  width: 80%;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin: auto;
+}
+
+.logo_{
+  text-align: center;
+}
+
+.retourenhaut{
+  scroll-behavior: smooth;
+  margin: auto;
+}
+
+.banner5{
+  background-image: url(../images/contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 50px;
+}
+
+.banner-content5{
+  color: black;
+  align-content: center;
+  margin: auto;
+}
+
+.content2 {
+  background-color: #cab2a3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 50px;
+  height: 600px;
+}
+
+@media screen and (max-width: 400px){
+.navbar-nav {
+  margin: auto;
+}
+
+.banner{
+  background-position: -334px;
+}
+
+.positiontext{
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.content{
+  padding: 10px;
+}
+
+.Pôletext{
+  text-align: center;
+}
+
+.rounded-start{
+  width: 300px;
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.flex-custom0 {
+  display: block;
+}
+
+.flex-custom1 {
+   display: block;
+}
+
+.retourformation{
+  margin-bottom: 20px;
+}
+
+.rounded-circle{
+  width: 250px;
+  margin-left: 63px;
+  margin-bottom: 30px;
+}
+
+.positiontext1{
+  text-align: center;
+}
+
+.Profiltext{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.boutoncv{
+  text-align: center;
+}
+
+.Mission {
+  height: 600px;
+  width: 355px;
+  margin-top: 30px;
+  margin-right: -10px;
+  margin-left: 13px;
+}
+
+.Design_Mission {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  width: 300px;
+}
+
+.position_Text_Mission{
+  margin-top: -70px;
+  margin-left: -40px;
+}
+
+.boutonMission{
+  margin-left: -40px;
+}
+
+.retourexp{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.carrousel_taille{
+  width: 100%;
+}
+
+.logo_{
+  width:130%; 
+  margin-left: -55px;
+}
+
+.retourpassion{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+}
