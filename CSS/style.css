@@ -306,6 +306,7 @@ position: relative;
 padding-bottom: 56.25%;
 padding-top: 30px;
 Height: 0;
+object-fit: cover;
 }
 
 .positiontext{
@@ -405,4 +406,4 @@ Height: 0;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+}
