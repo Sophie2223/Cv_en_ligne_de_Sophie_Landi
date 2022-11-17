@@ -291,7 +291,7 @@
   height: 600px;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 390px){
 
 .navbar-nav {
   margin: auto;
@@ -306,7 +306,7 @@ position: relative;
 padding-bottom: 56.25%;
 padding-top: 30px;
 Height: 0;
-object-fit: cover;
+overflow: hidden;
 }
 
 .positiontext{
