@@ -291,7 +291,7 @@
   height: 600px;
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 400px){
 
 .navbar-nav {
   margin: auto;
@@ -302,11 +302,9 @@
 }
 
 .video{
-position: relative;
 padding-bottom: 56.25%;
 padding-top: 30px;
 Height: 0;
-overflow: hidden;
 }
 
 .positiontext{
