@@ -302,7 +302,9 @@
 }
 
 .video{
-background-image: url(../images/contact1.jpg);
+padding-bottom: 56.25%;
+padding-top: 30px;
+Height: 0;
 }
 
 .positiontext{
