@@ -51,7 +51,7 @@
   }
 
 .content {
-  background-color: #e0cda9;
+  background-color: #af8d78;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -143,7 +143,7 @@
 }
 
 .banner3{
-  background-image: url(../images/fond3.jpg);
+  background-image: url(../images/university.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100px;
@@ -226,7 +226,7 @@
 }
 
 .banner4{
-  background-image: url(../images/passion1.jpg);
+  background-image: url(../images/fond3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100px;
@@ -264,7 +264,7 @@
 }
 
 .banner5{
-  background-color: #e0cda9;
+  background-color: #af8d78;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100px;
